@@ -13,7 +13,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "wekoi",
     authorAvatar: "/head.png",
-    base:'/wekoi-front-blog/',
+    base:'/fjy018399.github.io/',
     docsRepo: "https://gitlab.wekoi.cc/weli-fed-project/wekoi-front-blog",
     docsBranch: "master",
     docsDir: "example",
