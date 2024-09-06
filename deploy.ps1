@@ -2,10 +2,10 @@
 $ErrorActionPreference = 'Stop'
 
 # 更改 node 版本 根据自己版本管理器而定
-& fnm use --install-if-missing 20
+#  fnm use --install-if-missing 20
 
-# 生成静态文件
-npm run build
+# 生成静态文件，（暂时禁用，打包后再执行脚本，直接执行脚本有异步问题,执行npm run build ; npm run deploy）
+# npm run build
 
 # 进入生成的文件夹
 Set-Location .vuepress\dist
