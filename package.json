@@ -9,7 +9,7 @@
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
     "build": "vuepress build .",
-    "deploy": "bash deploy.sh" 
+    "deploy": "powershell -Command .\\deploy.ps1" 
   },
   "dependencies": {
     "vue": "^3.4.27",
